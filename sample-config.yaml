@@ -15,9 +15,8 @@ zmieszane:
     12: [ 6, 20 ]
 
 segregowane-zolte:
-  output2: /config/scripts/smieci-segregowane-zolte.json
-  output4: smieci-segregowane-zolte.json
-  output3: "-"
+  # output - if not defined, result will be printed to the stdout
+  # output: /config/scripts/smieci-segregowane-zolte.json
   bymonth:
     1: [ 12, 26 ]
     2: [ 9, 23 ]
